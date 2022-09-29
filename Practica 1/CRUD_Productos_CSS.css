@@ -1,0 +1,58 @@
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 15%;
+    color: white;
+}
+table, th, td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    color: white;
+    padding: 15px;
+    background-color: rgb(38, 133, 81);
+}
+header{
+    background-color: rgb(4, 131, 61);
+}
+body{
+    background-color: rgb(81, 190, 130);
+}
+#boton1{
+    border: 1px solid rgb(7, 75, 38);
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color:  rgb(50, 151, 96);
+    position: absolute;
+    right: 15%;
+    top: 2.6%;
+}
+#boton2{
+    border: 1px solid rgb(7, 75, 38);
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color:  rgb(50, 151, 96);
+}
+#boton3{
+    border: 1px solid rgb(7, 75, 38);
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color:  rgb(50, 151, 96);
+}
+#boton4{
+    border: 1px solid rgb(7, 75, 38);
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color:  rgb(50, 151, 96);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CRUD_Formulario_CSS.css"  rel="stylesheet" type="text/css">
+    <title>CRUD_Formulario</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form action="CRUD_Formulario_PHP.php" method="get">
+        <label for="id">Código: </label>
+        <input type="number" name="id" id="id" placeholder="Ponga el código">
+        <br/>
+        <br/>
+        <label for="producto">Producto: </label>
+        <input type="text" name="producto" id="producto" placeholder="Ponga el producto">
+        <br/>
+        <br/>
+        <label for="descripcion">Descripción: </label>
+        <input type="text" name="descripcion" id="descripcion" placeholder="Ponga la descripción">        
+        <br/>
+        <br/>
+        <label for="cantidad">Cantidad: </label>
+        <input type="number" name="cantidad" id="cantidad" placeholder="Ponga la cantidad">
+        <br/>
+        <br/>
+        <label for="precio">Precio: </label>
+        <input type="number" name="precio" id="precio" placeholder="Ponga el precio">
+        <br/>
+        <br/>
+        <input type="submit" style="cursor: pointer;">
+        <button id = "boton1" type = "button" name = "botonVolver" style = "cursor: pointer;"><a href="CRUD_Productos_PHP.php">Tabla de Productos</a></button>
+    </form>
+</body>
+</html>
